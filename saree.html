@@ -1,0 +1,178 @@
+<html>
+<head>
+<style>
+
+.header{
+background-color:blue;
+height:5%;
+width:100%;
+text-align:right;
+}
+.menu{
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+}
+.nav{
+
+background-color:FEE407;
+height:12%;
+width:100%;
+text-align: center;
+font-style: italic;
+font-size:50;
+
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 373px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 16%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 16%;
+  margin-left: -5px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  top:50;
+  height:30;
+}
+
+.dropdown{
+    margin: 7px;
+    font-size: 17px;
+    border: none;
+}
+
+
+.img1{
+width:24.8%;
+border:1px solid black;
+float:left;
+}
+.img2{
+width:24.8%;
+border:1px solid black;
+float:left;
+}
+.img3{
+width:24.8%;
+border:1px solid black;
+float:left;
+}
+.img4{
+width:24.8%;
+border:1px solid black;
+float:left;
+}
+.home{
+float:left;
+}
+
+
+</style>
+</head>
+<body>
+ <div class="header">
+
+<pre><b><a href="index.html"><input class="menu home" type=button value='Home'></a><a href="helpline.html"><input class="menu" type=button value='Help Line '>|</a><a href="project1.html"><input class="menu" type=button value=' Enquiry'></a> </b></pre>
+</div>
+<div class="nav">
+<b>AVISH BOUTIQUE</b>
+</div>
+
+<div class="header">
+<b><a href="signin.html"><input class="menu" type=button value='log in'></a> |<a href="signup.html"><input class="menu" type=button value='sign Up'> </a>  <b>
+</div>
+<br>
+<div style="text-align:center">
+ <select onChange="window.location.href=this.value" class="dropdown" style="text-align:center">
+
+    <option value="women">Women</option>
+    <option value="saree.html">Saree</option>
+  
+    <option value="salwarkameez.html">Salwar kameez</option>
+    
+ </select>
+<select onChange="window.location.href=this.value" class="dropdown">
+
+    <option value="men">Men</option>
+    <option value="tshirt.html">Tshirt</option>
+    <option value="coatsuit.html">CoatSuit</option>
+    <option value="formalshirt.html">Formal & Casual Shirt</option>
+ </select>
+<select onChange="window.location.href=this.value" class="dropdown">
+
+    <option value="kids">Kids</option>
+    <option value="frock.html">Frock</option>
+    <option value="styledress.html">Girls Clothing</option>
+    <option value="boysformal.html">Formal & Casual Shirt</option>
+    <option value="kurta.html">Kurta</option>
+    <option value="boyscoatsuit.html">CoatSuit</option>
+ </select>
+</div>
+<br>
+ <div class="img1 tooltip">
+ <img src="../exe2/download/saree2.jpg " width="400" height="600"><b>Vivaha Wedding Pure Silk Saree Rs20000</b>
+  
+ </div>
+ <div class="img2 tooltip">
+ <img src="../exe2/download/saree1.jpg  " width="400" height="600"><b>NCB0082962 - Wedding Silk Saree Rs25000</b>
+ 
+ </div>
+ <div class="img3 tooltip">
+ <img src=" ../exe2/download/saree3.jpg  " width="400" height="600"><b>NDA0725233 - Traditional Silk Saree Rs15595</b>
+ 
+ </div>
+ <div class="img4 tooltip">
+ <img src=" ../exe2/download/saree4.jpg " width="379" height="600"><b> NCD0427485 - Vivaha Wedding Silk Saree Rs12000  <b>
+  
+ </div>
+ 
+ <div class="img1 tooltip">
+ <img src="../exe2/download/saree5.jpg  " width="400" height="600"><b>MJA7117093 - Soft Silk Saree Rs12995 <b>
+ 
+ </div>
+ <div class="img2 tooltip">
+ <img src="../exe2/download/saree6.jpg  " width="400" height="600"><b> NCD0406500 -Shimmer Chiffon Saree Rs3995 <b>
+
+ </div>
+ <div class="img3 tooltip">
+ <img src=" ../exe2/download/saree7.jpg " width="400" height="600"><b>NCD0406502 -Shimmer Chiffon Saree Rs3995  <b>
+ 
+ </div>
+ <div class="img4 tooltip">
+ <img src="../exe2/download/saree8.jpg " width="379" height="600"><b>MKC9780741 - Fancy Weaving Saree Rs2500  <b>
+ 
+ </div>
+
+ </body>
+ </html>
